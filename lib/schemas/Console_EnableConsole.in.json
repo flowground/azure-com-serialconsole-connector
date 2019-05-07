@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "subscriptionId": {
+            "required": true,
+            "type": "string"
+        },
+        "default": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "default"
+            ]
+        },
+        "api_version": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}
